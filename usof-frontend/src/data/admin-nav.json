@@ -1,0 +1,19 @@
+{
+    "adminNav": [
+        {
+            "id": 1,
+            "name": "Users",
+            "link": "/admin-panel/users"
+        },
+        {
+            "id": 2,
+            "name": "Categories",
+            "link": "/admin-panel/categories"
+        },
+        {
+            "id": 3,
+            "name": "Posts",
+            "link": "/admin-panel/posts"
+        }
+    ]
+}

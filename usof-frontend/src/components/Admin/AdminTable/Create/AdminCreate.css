@@ -1,0 +1,34 @@
+.form.admin_create {
+    text-align: left;
+}
+
+.admin_create-section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+}
+
+.admin_create-head-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.arrow_back-img-container {
+    width: 30px;
+    height: 30px;
+}
+
+
+.input-container.admin_create {
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+/* 
+.form-input.admin_create {
+    width: 80%;
+} */
+
+

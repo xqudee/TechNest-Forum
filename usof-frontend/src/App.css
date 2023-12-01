@@ -1,0 +1,167 @@
+.App {
+}
+
+.App-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 70px 40px;
+  gap: var(--gap-between-sections);
+}
+
+a, .ul, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+input {
+  padding-left: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:read-only:hover {
+  cursor: auto;
+}
+
+.fill_bg-btn {
+  background-color: var(--button-orange);
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button:disabled {
+  cursor: auto;
+}
+
+.button {
+  padding: 10px 12px;
+  border-radius: var(--border-r-small);
+}
+
+.default-bg {
+  background-color: var(--light-gray);
+  border-radius: var(--border-r-big);
+  padding: 15px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1px;
+  border-radius: 6px;
+  background-color: var(--extralight-gray);
+}
+
+.button-yellow {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid var(--light-orange);
+  border-radius: 5px;
+  color: var(--light-orange);
+  transition: all ease 0.3s;
+}
+
+.button-yellow:hover {
+  color: var(--text-color);
+  background-color: var(--light-orange);
+}
+
+.center_section {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-between-sections);
+  text-align: left;
+}
+
+.center_section .h3 {
+  margin-left: 20px;
+}
+
+pre {
+  background-color: var(--gray-text-color);
+  padding: 5px 10px;
+  color: black;
+  border-radius: var(--border-r-small);
+  white-space: pre-wrap;
+}
+
+.inactive {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.blur_for_guest {
+  filter: blur(3px);
+  opacity: 0.8;
+  position: relative;
+}
+
+.blur_for_guest button {
+  pointer-events: none;
+}
+
+.blur_for_guest::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.authorization_text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 3;
+}
+
+select:focus {
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .App-container {
+    margin: 20px;
+    margin-top: 70px;
+  }
+
+  .center_section {
+    width: 100%;
+  }
+}

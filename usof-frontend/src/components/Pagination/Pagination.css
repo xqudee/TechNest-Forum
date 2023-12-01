@@ -1,0 +1,26 @@
+.pagination-section {
+    display: flex;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.pagination-item {
+    background-color: var(--light-gray); 
+    padding: 5px 5px;
+}
+
+.pagination-link {
+    background-color: var(--light-gray);
+    border: 1px solid  var(--light-orange);
+    padding: 5px 9px;
+    font-size: 14px;
+}
+
+.pagination-link:hover, .active_page {
+    background-color: var(--light-orange);
+    font-weight: bold;
+}

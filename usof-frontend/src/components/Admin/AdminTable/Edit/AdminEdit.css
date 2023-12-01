@@ -1,0 +1,12 @@
+.edit_input-div {
+    width: 20px;
+    height: 20px;
+    align-self: flex-end;
+}
+
+.value-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid var(--extralight-gray);
+}

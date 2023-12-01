@@ -1,0 +1,9 @@
+.reactions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reaction {
+    width: 20px;
+}

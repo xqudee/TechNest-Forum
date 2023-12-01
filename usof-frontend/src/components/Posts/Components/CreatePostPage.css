@@ -1,0 +1,119 @@
+.create_post-section {
+}
+
+.create_post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+.create_post_form-cotnainer {
+    width: 100%;
+    text-align: left;
+}
+
+.create_post-button {
+}
+
+.create_post_form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.create_post-input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.create_post-input_container label {
+    color: var(--gray-text-color);
+    padding-left: 10px;
+}
+
+.create_post-input {
+    background: transparent;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--gray-text-color);
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.post_content-menu, .post_content-menu_decorations, .post_content-menu_positions {
+    display: flex;
+    gap: 10px;
+}
+
+.editor_container {
+    border-radius: var(--border-r-medium);
+    border: 3px solid #cbcbcb;
+    box-shadow: var(--box-shadow);
+}
+
+.ql-toolbar.ql-snow {
+    background-color: #ccc 
+}
+
+.quill .ql-container.ql-snow {
+    border: none;
+    background: var(--gray-text-color);
+    color: black;
+    min-height: 100px;
+}
+
+.post_categories-input-container {
+    position: relative;
+}
+
+.post_categories_input {
+    width: -webkit-fill-available;
+}
+
+.arrow_down-container {
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-25%, 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_category-list_container {
+    display: flex;
+    flex-direction: column;
+    background: var(--gray-text-color);
+    border-bottom-left-radius: var(--border-r-medium);
+    border-bottom-right-radius: var(--border-r-medium);
+}
+
+.search_category-list_item {
+    padding: 5px 0 5px 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.post_categories-list {
+    display: flex;
+    gap: 5px;
+}
+
+.post_categories-list-item {
+    padding: 5px 10px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.submit_btn-container {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+
+.submit_btn {
+    padding: 10px 30px;
+    align-self: end;
+}

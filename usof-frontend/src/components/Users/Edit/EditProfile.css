@@ -1,0 +1,62 @@
+.profile_edit-top_info {
+    display: flex;
+    gap: var(--gap-between-sections);
+    text-align: left;
+    align-items: center;
+}
+
+.profile_edit-main_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.profile_edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-between-sections);
+}
+
+/* .profile_edit-input_cont {
+    padding: 8px 15px;
+    background: var(--extralight-gray);
+    border-radius: var(--border-r-small);
+    display: flex;
+    justify-content: space-between;
+} */
+
+.profile_edit-input_cont span {
+    font-size: 14px;
+    color: var(--gray-text-color);
+    padding-right: 8px;
+}
+
+.edit_profile-button {
+    height: 20px;
+    width: 20px;
+}
+
+.edit_profile-input {
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 0;
+    font-size: 18px;
+    border-bottom: 1px solid var(--gray-text-color);
+}
+
+.user_profile-about_section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-between-sections);
+}
+
+.quill .ql-container.ql-snow {
+    min-height: 200px;
+}
+
+.submit_edit_container {
+    display: flex;
+    justify-content: flex-end;
+}

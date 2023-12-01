@@ -1,0 +1,67 @@
+.icon {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center; 
+    transition: all ease 0.3s;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon_close-button {
+    background-image: url('../../../public/icons/close.svg');
+}
+
+.icon_close-button:hover {
+    background-image: url('../../../public/icons/close-hover.svg');
+}
+
+.icon_edit-button {
+    width: 90%;
+    height: 100%;
+    background-image: url('../../../public/icons/edit.svg');
+}
+
+.icon_edit-button:hover, .icon_edit-button.icon_edit_black-button {
+    background-image: url('../../../public/icons/edit-hover.svg');
+}
+
+.icon_back-button {
+    background-image: url('../../../public/icons/arrow-back.svg');
+}
+
+.icon_back-button:hover {
+    background-image: url('../../../public/icons/arrow-back-hover.svg');
+}
+
+/* .icon_more-button {
+    background-image: url('../../../public/icons/more.svg');
+}
+
+.icon_more-button:hover {
+    background-image: url('../../../public/icons/more-hover.svg');
+} */
+
+.heart-button-cont {
+    position: relative;
+}
+
+.arrow_right-button {
+    background: var(--background);
+    border-radius: 50%;
+}
+
+.active.heart-button-fill {
+    opacity: 1;
+}
+
+.favorite-button {
+    background-image: url('../../../public/icons/favorite-icon.svg');
+}
+
+.favorite-button-active {
+    background-image: url('../../../public/icons/favorite-icon-active.svg');
+}

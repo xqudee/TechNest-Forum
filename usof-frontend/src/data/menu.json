@@ -1,0 +1,19 @@
+{
+    "menuData": [
+        {
+            "id": 1,
+            "name": "Main",
+            "link": "/"
+        },
+        {
+            "id": 2,
+            "name": "Users",
+            "link": "/users"
+        },
+        {
+            "id": 3,
+            "name": "Categories",
+            "link": "/categories"
+        }
+    ]
+}

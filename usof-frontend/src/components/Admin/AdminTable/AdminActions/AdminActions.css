@@ -1,0 +1,9 @@
+.admin_table-icon-container {
+    height: 20px;
+    width: 20px;
+}
+
+.admin_table-icon-div {
+    display: flex;
+    gap: 10px;
+}

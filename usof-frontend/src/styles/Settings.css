@@ -1,0 +1,69 @@
+.settings-container {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    gap: 10px;
+}
+
+.settings_main-link {
+    width: 100%;
+}
+
+.settings-item {
+    background-color: var(--light-gray);
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.arrow-cont {
+    width: 20px;
+    height: 20px;
+}
+
+.rigth-cont-settings {
+    display: flex;
+    gap: 10px;
+}
+
+.confirm-password-cont {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-between-sections);
+}
+
+.settings-cont-main {
+    margin: 0 20px;
+}
+
+.change_value-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.change_value-cont-password {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.change_value-cont-password input {
+    background-color: var(--extralight-gray);
+    border-radius: var(--border-r-small);
+    color: var(--text-color);
+    width: 70%;
+    padding: 10px 15px;
+}
+
+.message_container p {
+    color: var(--light-orange);
+    font-size: 14px;
+    font-weight: 500;
+}

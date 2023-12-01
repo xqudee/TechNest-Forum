@@ -1,0 +1,25 @@
+
+.css-b62m3t-container .css-13cymwt-control, .css-b62m3t-container .css-t3ipsp-control {
+    background-color: var(--extralight-gray);
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+.css-b62m3t-container .css-13cymwt-control:focus {
+    background-color: transparent;
+}
+
+.css-b62m3t-container .css-1nmdiq5-menu {
+    box-shadow: var(--box-shadow);
+    background-color: var(--extralight-gray);
+}
+
+.css-1p3m7a8-multiValue {
+    width: fit-content;
+    background-color: var(--extralight-gray);
+}
+
+.css-wsp0cs-MultiValueGeneric {
+    color: var(--text-color);
+    font-weight: 500;
+}
